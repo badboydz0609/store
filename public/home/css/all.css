@@ -1,0 +1,18 @@
+.col-fff {
+color : #fff;
+}
+.back-5dd {
+	background-color: #5dd5c4;
+	}
+.col-5dd5c4 {
+color : #5dd5c4;
+}
+.b-s-5dd5c4 {
+	border : 1px solid #5dd5c4;
+}
+.col-ffh:hover {
+color : #fff;
+}
+.back-5dd5c4:hover {
+	border : #5dd5c4;
+}

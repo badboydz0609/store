@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        45deg, #f8f8f8, #f8f8f8
+    );
+}
+form{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15);
+}
+
+input {
+  padding:8px 30px 8px 10px;
+  width:100%;
+  font-size:16px;
+  border:2px solid #5dd5c4;
+  outline:none;
+  border-radius: 6px;
+  height: 50px;
+}
+
+#password{
+    margin-bottom: 15px;
+}
+#email{
+    margin-bottom: 20px;
+}
+#phone{
+    margin-bottom: 20px;
+}
+#name{
+    margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+p{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #000000;
+    padding: 4px;
+    text-align: center;
+}
+h1{
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.button{
+	width:100%;
+	font-size:16px;
+	padding: 10px;
+	background-color:#fff;
+	color:#5dd5c4;
+	margin-top: 15px;
+	border:2px solid #5dd5c4;
+	text-align:center;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border-radius: 6px;
+	height: 50px;
+	border-radius: 6px;
+}
+.button a{
+	
+		text-decoration:none;
+        color:#5dd5c4;
+
+}
+
+.link {
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color:#787f82;
+  font-size: 15px;
+}
+
+           /* For Power Password */
+.pw-meter .pw-strength {
+  position:relative;
+  width:100%;
+  height:25px;
+  font-size: 19px;
+  text-align:center;
+  background:#f2f2f2;
+  display:none;
+
+}
+.pw-meter .pw-strength span:nth-child(1) {
+  position:relative;
+  font-size:13px;
+  color:#111;
+  z-index:2;
+  font-weight:600;
+  bottom: 2px;
+}
+.pw-meter .pw-strength span:nth-child(2) {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:0%;
+  height:100%;
+  border-radius:5px;
+  z-index:1;
+  transition:all 300ms ease-in-out;
+}
+           /* End For Power Password */

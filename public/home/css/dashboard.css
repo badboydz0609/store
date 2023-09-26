@@ -1,0 +1,72 @@
+.main-container{
+	width: 80%;
+}
+.main-container  .product {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+	display: inline-flex;
+	width : 100%;
+  }
+  .main-container  .product:hover {
+	  box-shadow:10px 10px 20px rgba(0,0,0,0.15);
+  }
+.main-container  img {
+   /* max-width: 10%;*/
+   height: 100px;
+    display: block;
+  }
+.main-container  h3 {
+    font-size: 18px;
+    text-align: center;
+	margin: auto;
+  }
+ .main-container p {
+    text-align: center;
+  }
+ .main-container .edit-button,
+ .main-container .sup-button,
+ .main-container .accept-button{
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5dd5c4;
+    color: #fff;
+    cursor: pointer;
+	height: 40px;
+    margin: auto 0px auto 10px;
+  }
+
+.main-container .sup-button{
+	background-color: red;
+}
+
+.main-container .accept-button{
+    background-color:#5d64d5
+}
+
+.main-container .add-button {
+display: block;
+margin: 20px auto;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #5dd5c4;
+color: #fff;
+cursor: pointer;
+}
+
+.main-container .add-button:hover {
+background-color: #5dd5c4;
+}
+
+.main-container .add-button:focus {
+outline: none;
+}
+
+.main-container .add-button:active {
+background-color: #5dd5c4;
+}
